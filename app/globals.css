@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ThinklyLabs Hero Gradient */
+.bg-thinkly-hero {
+  background-color: #033f44;
+  /* Dark Teal */
+  background-image:
+    radial-gradient(at 10% 20%, rgba(13, 148, 136, 0.4) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(20, 184, 166, 0.2) 0px, transparent 50%),
+    radial-gradient(at 40% 60%, rgba(15, 118, 110, 0.3) 0px, transparent 50%),
+    linear-gradient(135deg, rgba(4, 47, 46, 0.9) 0%, rgba(15, 118, 110, 0.5) 50%, rgba(4, 47, 46, 0.9) 100%);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #27272a transparent;
+}
+
+/* Smooth scrolling for chat area */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Animation for suggestion pills */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mermaid diagram container */
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prose overrides for the chat markdown */
+.prose-thinkly {
+  line-height: 1.7;
+}
+
+.prose-thinkly> :first-child {
+  margin-top: 0;
+}
+
+.prose-thinkly> :last-child {
+  margin-bottom: 0;
+}
