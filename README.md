@@ -1,13 +1,21 @@
-# ThinklyBot 🤖
+# ThinklyBot 
 
 ThinklyBot is an advanced AI chat application built with Next.js. It features a sleek, dark glassmorphism user interface with smooth transitions, providing a seamless conversational experience. Beyond standard text generation, ThinklyBot excels at rendering dynamic UI components like LaTeX mathematical formulas inline.
 
-## 🌟 What It Does
+##  UI Screenshot
+
+
+![ThinklyBot UI Screenshot](./public/Screenshot1.png)
+![](./public/Screenshot2.png)
+
+
+##  What It Does
 
 - **Intelligent Conversations:** Engages in contextual and coherent interactions using state-of-the-art AI models.
 - **LaTeX Formatting:** Renders mathematical formulas and equations perfectly.
 - **Sleek UI/UX:** Features a vibrant dark glassmorphism design with atmospheric background orbs and fluid transitions.
 - **Streaming Responses:** Real-time text generation leveraging Vercel AI SDK for an ultra-fast user experience.
+
 
 ## 🛠️ Tech Stack
 
@@ -18,20 +26,7 @@ ThinklyBot is an advanced AI chat application built with Next.js. It features a 
 - **Database & Auth:** Supabase
 - **Rendering:** `react-markdown` and `remark-gfm` for rich text.
 
-## 💡 Its Uses
-
-- **Academic Research:** Students and researchers can render and discuss complex equations using LaTeX.
-- **Productivity & Brainstorming:** A general-purpose AI assistant to draft emails, write code, and brainstorm ideas in a distraction-free, premium environment.
-
-## 📸 UI Screenshot
-
-> Note: Replace this placeholder section with an actual screenshot of the application UI.
-
-![ThinklyBot UI Screenshot](./public/Screenshot1.png)
-(./public/Screenshot2.png)
-
-
-## 🚀 Getting Started
+##  Getting Started
 
 First, install the dependencies:
 
