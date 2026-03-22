@@ -4,6 +4,8 @@ The ThinklyBot is a high-performance, self-service Enterprise AI Consultant desi
 
 Think of it as a "CTO-in-a-box" for prospective clients. Instead of a generic chatbot, it acts as a strategic architect that audits a company’s manual processes—like lead scoring, inbox management, or data entry—and provides a professional-grade automation blueprint based on the Thinkly Labs methodology.
 
+The Bot is trained on Thinkly Labs' website content, founder philosophies, and elite industry research (a16z/LangChain) and does not hallucinate outside the context.
+
 ##  UI Screenshot
 
 
