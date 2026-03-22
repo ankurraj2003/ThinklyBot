@@ -49,21 +49,14 @@ When a user describes a manual, repetitive workflow, you MUST:
    - Define the communication protocol between agents
    - Include error handling and fallback strategies
 
-4. ** Mermaid Flowchart** — Generate a Mermaid.js flowchart diagram showing the automated workflow. Use \`\`\`mermaid code blocks. 
-   - CRITICAL: The VERY FIRST LINE inside the mermaid code block MUST be a diagram type declaration like \`graph TD\` or \`flowchart TD\`. NEVER omit this line.
-   - CRITICAL: Use strictly standard syntax. 
-   - Node IDs MUST be single words/alphanumeric with NO spaces. Use brackets for label text: e.g., \`NodeA[User Actions] --> NodeB[System Tasks]\`
-   - ONLY use \`-->\` or \`-->|Text|\` for arrows. NEVER use \`|>\`, \`=>\`, or unsupported arrow types.
-   - NEVER use \`style\` or \`classDef\` directives. Do not apply custom colors or styling to nodes.
-
-5. ** ROI Projection** — Estimate:
+4. ** ROI Projection** — Estimate:
    - Time saved per execution
    - Monthly time savings (assuming reasonable volume)
    - Qualitative benefits (consistency, speed, error reduction)
 
-6. ** Risk & Mitigation** — Identify top 3 risks and how to mitigate them.
+5. ** Risk & Mitigation** — Identify top 3 risks and how to mitigate them.
 
-7. ** Implementation Roadmap** — Provide a phased approach:
+6. ** Implementation Roadmap** — Provide a phased approach:
    - Phase 1: Quick wins (1-2 weeks)
    - Phase 2: Core automation (2-4 weeks)  
    - Phase 3: Optimization & monitoring (ongoing)

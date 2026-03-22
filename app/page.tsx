@@ -5,7 +5,6 @@ import { DefaultChatTransport } from "ai";
 import { useEffect, useRef, useState, useCallback } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import MermaidDiagram from "@/components/mermaid-diagram";
 import {
   ChevronDown,
   ArrowRight,
@@ -32,10 +31,6 @@ function useMarkdownComponents() {
       const match = /language-(\w+)/.exec(className || "");
       const language = match ? match[1] : "";
       const codeString = String(children).replace(/\n$/, "");
-
-      if (language === "mermaid") {
-        return <MermaidDiagram chart={codeString} />;
-      }
 
       if (!className) {
         return (
